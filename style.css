@@ -1,0 +1,373 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #2f2f2f;
+  line-height: 1rem;
+  margin: 0%;
+  height: auto;
+}
+header {
+  position: fixed;
+  width: 100%;
+  height: 35px;
+  background-color: #5c5e60;
+}
+button {
+  background-color: #5c5e60;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 35px;
+  margin-top: 8px;
+}
+.banner {
+  display: inline;
+  margin-left: 15px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+}
+.section-1 {
+  width: 50%;
+  float: left;
+}
+.section-2 {
+  display: flex;
+  width: 37%;
+  float: left;
+  color: #ffffff;
+  margin-top: 8px;
+  margin-left: 235px;
+}
+.nav {
+  margin-right: 10px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.nav > i {
+  padding-right: 5px;
+  font-size: 16px;
+}
+.video-tag video {
+  width: 100%;
+}
+.video-tag {
+  padding: 0%;
+  margin: 0%;
+  float: left;
+}
+.booking-bar {
+  width: 1350px;
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  position: relative;
+  left: 350px;
+  bottom: 105px;
+  float: left;
+}
+.search-btn {
+  background-color: #ffffff;
+  color: #2f2f2f;
+  width: 30px;
+  height: 50px;
+}
+#marque {
+  position: relative;
+  top: 15px;
+  font-size: 20px;
+  width: 250px;
+  height: 28px;
+}
+.date {
+  display: inline;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 80px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+#booking-btn {
+  position: relative;
+  top: -0px;
+  left: -20px;
+}
+.days-of-joy {
+  text-align: center;
+  font-size: 36px;
+  font-family: math;
+  font-weight: lighter;
+  opacity: 80%;
+}
+.img-under-joy {
+  width: 350px;
+  height: 60px;
+  position: relative;
+  top: 5px;
+  left: 770px;
+}
+.summerHolydays {
+  text-align: center;
+  font-weight: bold;
+  opacity: 80%;
+  padding-top: 5px;
+  font-style: italic;
+  font-family: auto;
+  font-size: 16px;
+}
+.up-to {
+  text-align: center;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.para-2 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+.para-3,
+.para-4 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.android-ios-icon {
+  position: relative;
+  left: 830px;
+  object-fit: none;
+  z-index: -1;
+  float: left;
+}
+.card-book-now-btn:hover {
+  background-color: #9f8c8c;
+}
+.text-inner-heading:hover {
+  font-weight: bold;
+}
+.booking-btn {
+  border: 2px solid black;
+  height: 40px;
+  width: 250px;
+  margin-left: 570px;
+  border-radius: 36px;
+  color: black;
+  background-color: #ffffff;
+  float: left;
+  margin-top: 90px;
+}
+.booking-btn:hover {
+  background-color: #050505;
+  color: #ffffff;
+}
+.container {
+  clear: both;
+  width: 1750px;
+  height: 230px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  margin-top: 15px;
+  position: relative;
+  left: 90px;
+  top: 50px;
+  display: flex;
+  float: left;
+  /* border: 2px solid rgb(218, 218, 218); */
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 32px 20px;
+}
+.inside-container-1 {
+  width: 400px;
+  height: 100%;
+  font-family: Sorts Mill Goudy Italic;
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 38px;
+  padding: -10px 20px;
+  font-weight: 500;
+  border-right-style: solid;
+  border-right-color: black;
+  border-right-width: 2px;
+}
+.inside-container-2 {
+  width: 100%;
+  height: 100%;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+.inside-content {
+  font-weight: lighter;
+  font-size: 15px;
+}
+li {
+  display: flex;
+  padding-top: 30px;
+}
+.Participating-Hotels {
+  clear: both;
+  text-align: center;
+  font-size: 40px;
+  font-family: HelveticaNeue-Thin;
+  font-weight: 400;
+  opacity: 80%;
+  position: relative;
+  top: 90px;
+  z-index: 1;
+}
+.img-under-joy-2 {
+  width: 350px;
+  height: 60px;
+  position: relative;
+  top: 100px;
+  left: 780px;
+}
+.nbsp {
+  clear: both;
+  margin-top: 100px;
+  /* background-color: black; */
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-left: 40px;
+  width: 300px;
+  height: 480px;
+}
+.img-card {
+  border-radius: 8px;
+  width: 300px;
+  height: 350px;
+}
+.card-1 {
+  text-align: center;
+  font-family: orts Mill Goudy Italic;
+  font-style: italic;
+  color: #5c5e60;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.card-book-now-btn {
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  padding: 5px;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+.terms-conditions {
+  width: 1500px;
+  height: 68px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 280px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#terms-condition {
+  margin-left: 10px;
+  display: flex;
+  float: left;
+}
+#down-arraow {
+  float: left;
+  margin-left: 1200px;
+}
+.hr {
+  margin-top: 50px;
+}
+.club-itc {
+  margin-left: 250px;
+  /* margin-top: 20px; */
+}
+.footer {
+  margin-top: 20px;
+  width: 100%;
+  /* height: 800px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-outer-layer {
+  display: flex;
+
+  justify-content: space-evenly;
+  width: 80%;
+  height: 80%;
+  background-color: #ffffff;
+}
+.text-inner-heading {
+  font-size: 20px;
+  margin-top: 14px;
+}
+.text-heading {
+  position: relative;
+  bottom: 20px;
+}
+.assitence-section {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.footer-second {
+  width: 100%;
+  height: auto;
+}
+.inner-footer-second {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding-top: 40px;
+  padding-left: 60px;
+}
+.inner-footer-second-2 {
+  width: 50%;
+  float: right;
+  text-align: end;
+  padding-top: 40px;
+  padding-right: 175px;
+}
+.download-app {
+  position: relative;
+  top: 20px;
+  padding-left: 20px;
+}
+.itc-brand-logo {
+  position: relative;
+  top: 60px;
+}
+.final-footer {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 560px;
+}
+h5 {
+  padding-left: 30px;
+}
